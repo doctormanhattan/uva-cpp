@@ -1,0 +1,1 @@
+Program('134_loglan_a_logical_language.bin', Glob('*.cpp'))

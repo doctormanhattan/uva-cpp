@@ -1,0 +1,1 @@
+Program('151_power_crisis.bin', Glob('*.cpp'))

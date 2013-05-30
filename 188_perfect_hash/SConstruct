@@ -1,0 +1,1 @@
+Program('188_perfect_hash.bin', Glob('*.cpp'))

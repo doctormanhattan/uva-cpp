@@ -1,0 +1,1 @@
+Program('106_fermat_vs_pythagoras.bin', Glob('*.cpp'))

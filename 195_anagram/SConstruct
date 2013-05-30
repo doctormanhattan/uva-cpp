@@ -1,0 +1,1 @@
+Program('195_anagram.bin', Glob('*.cpp'))

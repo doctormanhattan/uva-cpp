@@ -1,0 +1,1 @@
+Program('153_permalex.bin', Glob('*.cpp'))

@@ -1,0 +1,1 @@
+Program('192_synchronous_design.bin', Glob('*.cpp'))

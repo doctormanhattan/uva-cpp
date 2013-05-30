@@ -1,0 +1,1 @@
+Program('141_the_spot_game.bin', Glob('*.cpp'))

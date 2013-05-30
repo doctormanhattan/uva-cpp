@@ -1,0 +1,1 @@
+Program('155_all_squares.bin', Glob('*.cpp'))

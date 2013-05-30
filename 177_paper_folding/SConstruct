@@ -1,0 +1,1 @@
+Program('177_paper_folding.bin', Glob('*.cpp'))

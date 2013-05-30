@@ -1,0 +1,1 @@
+Program('122_trees_on_the_level.bin', Glob('*.cpp'))

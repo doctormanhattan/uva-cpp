@@ -1,0 +1,1 @@
+Program('174_strategy.bin', Glob('*.cpp'))

@@ -1,0 +1,1 @@
+Program('102_ecological_bin_packing.bin', Glob('*.cpp'))

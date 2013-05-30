@@ -1,0 +1,1 @@
+Program('110_meta_loopless_sorts.bin', Glob('*.cpp'))
