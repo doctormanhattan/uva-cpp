@@ -1,4 +1,3 @@
-
 # Software CRC 
 
 You work for a company which uses lots of personal computers. Your boss, Dr
@@ -26,19 +25,19 @@ proposed error checking mechanism noted below.
 The message to be transmitted is viewed as a long positive binary number.
 The first byte of the message is treated as the most significant byte of
 the binary number. The second byte is the next most significant, etc. This
-binary number will be called ``m'' (for message). Instead of transmitting
-``m'' you will transmit a message, ``m2'', consisting of ``m'' followed by
+binary number will be called **m** (for message). Instead of transmitting
+**m** you will transmit a message, **m2**, consisting of **m** followed by
 a two-byte CRC value.
 
-The CRC value is chosen so that ``m2'' when divided by a certain 16-bit
-value ``g'' leaves a remainder of 0. This makes it easy for the receiving
+The CRC value is chosen so that **m2** when divided by a certain 16-bit
+value **g** leaves a remainder of 0. This makes it easy for the receiving
 program to determine whether the message has been corrupted by transmission
-errors. It simply divides any message received by ``g''. If the remainder
+errors. It simply divides any message received by **g**. If the remainder
 of the division is zero, it is assumed that no error has occurred.
 
-You notice that most of the suggested values of ``g'' in the book are odd,
+You notice that most of the suggested values of **g** in the book are odd,
 but don't see any other similarities, so you select the value 34943 for
-``g'' (the generator value).
+**g** (the generator value).
 
 ## Input and Output
 
