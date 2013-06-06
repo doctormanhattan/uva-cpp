@@ -1,4 +1,3 @@
-
 # The Skyline Problem 
 
 ## Background
@@ -35,24 +34,25 @@ The input is a sequence of building triples. All coordinates of buildings are
 positive integers less than 10,000 and there will be at least one and at most
 5,000 buildings in the input file. Each building triple is on a line by itself
 in the input file. All integers in a triple are separated by one or more
-spaces. The triples will be sorted by tex2html_wrap_inline151 , the left x
+spaces. The triples will be sorted by Li , the left x
 -coordinate of the building, so the building with the smallest left x
 -coordinate is first in the input file.
 
 ## The Output
 
 The output should consist of the vector that describes the skyline as shown in
-the example above. In the skyline vector tex2html_wrap_inline183 , the
-tex2html_wrap_inline185 such that i is an even number represent a horizontal
-line (height). The tex2html_wrap_inline185 such that i is an odd number
-represent a vertical line (x-coordinate). The skyline vector should represent
-the ``path'' taken, for example, by a bug starting at the minimum x-coordinate
-and traveling horizontally and vertically over all the lines that define the
-skyline. Thus the last entry in the skyline vector will be a 0. The coordinates
-must be separated by a blank space.
+the example above. In the skyline vector (V1, V2, ... Vn-1, Vn) , the
+Vi such that i is an even number represent a horizontal
+line (height). The Vi such that i is an odd number represent a vertical line (x-coordinate). 
+
+The skyline vector should represent the **path** taken, for example, by a bug starting at the 
+minimum x-coordinate and traveling horizontally and vertically over all the lines that define the
+skyline. Thus the last entry in the skyline vector will be a 0. 
+
+The coordinates must be separated by a blank space.
 
 ## Sample Input
-
+```
 1 11 5
 2 6 7
 3 13 9
@@ -61,8 +61,8 @@ must be separated by a blank space.
 19 18 22
 23 13 29
 24 4 28
-
+```
 ## Sample Output
-
+```
 1 11 3 13 9 0 12 7 16 3 19 18 22 3 23 13 29 0
-
+```
