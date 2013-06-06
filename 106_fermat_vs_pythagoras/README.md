@@ -26,7 +26,7 @@ quantities regarding the solution of
 where x, y, and z are constrained to be positive integers less than or equal to
 N. You are to compute the number of triples (x,y,z) such that x<y< z, and they
 are relatively prime, i.e., have no common divisor larger than 1. You are also
-to compute the number of values tex2html_wrap_inline51 such that p is not part
+to compute the number of values 0 < p <= N  such that p is not part
 of any triple (not just relatively prime triples).
 
 ## The Input
@@ -38,9 +38,10 @@ terminated by end-of-file.
 ## The Output
 
 For each integer N in the input file print two integers separated by a space.
-The first integer is the number of relatively prime triples (such that each
-component of the triple is <= N ). The second number is the number of positive 
-integers <= N that are not part of any triple whose components are all <= N. 
+
+* The first integer is the number of relatively prime triples (such that each component of the triple is <= N ). 
+* The second number is the number of positive integers <= N that are not part of any triple whose components are all <= N.  
+
 There should be one output line for each input line.
 
 ## Sample Input
